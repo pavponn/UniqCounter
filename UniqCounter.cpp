@@ -48,11 +48,11 @@ uint32_t UniqCounter::hash(int32_t num) {
     return static_cast<uint32_t>(num);
 }
 
-uint8_t UniqCounter::lowest_bit(uint32_t number) {
-    if (number == 0) {
+uint8_t UniqCounter::lowest_bit(uint32_t num) {
+    if (num == 0) {
         return BITS;
     }
-    return static_cast<uint8_t>(log2(number & -number) + 1);
+    return static_cast<uint8_t>(log2(num & -num) + 1);
 }
 
 /**
