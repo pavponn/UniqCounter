@@ -1,5 +1,5 @@
 //
-// Created by Павел Пономарев on 2019-05-23.
+// Created by Павел Пономарев on 2019-05-24.
 //
 
 #include "UniqCounter.h"
@@ -59,7 +59,6 @@ uint8_t UniqCounter::lowest_bit(uint32_t number) {
  * REGISTER_SIZE can be changed due to specific goals, this method will
  * calculate alpha for different REGISTER_SIZE
  */
-
 double UniqCounter::get_alpha() const {
     switch (REGISTER_SIZE) {
         case 16:

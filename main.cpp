@@ -5,6 +5,7 @@
 #include "UniqCounter.h"
 #include <set>
 #include <random>
+#include <cassert>
 
 double relative_error(int expected, int got) {
     return abs(got - expected) / (double) expected;
