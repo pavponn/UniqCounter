@@ -1,6 +1,7 @@
 # UniqCounter
 Implementation of HyperLogLog algorithm to count number of unique elements in data stream. Project for VK Internship 2019.
-
+ 
+Article 
 ## Сборка и запуск 
 ```
 $ mkdir build
